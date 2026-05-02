@@ -14,10 +14,32 @@
         </div>
 
         <div class="screen" id="quiz-screen">
-
             <div class="quiz-header">
-                <h2 id="question-text"></h2>
+                <h2 id="question-text">Pertanyaan ditulis di sini</h2>
+                <div class="quiz-info">
+                    <p>Pertanyaan <span id="current-question">1</span> of <span>5</span></p>
+
+                    <p>score: <span id="score">0</span></p>
+                </div>
+
             </div>
+            <div id="answers-container" class="answes-container">
+                <!-- Tombol jawaban akan ditambahkan di sini nanti dari kode JavaScript -->
+            </div>
+
+            <div class="progres-bar">
+                <div id="progress" class="progress"></div>
+            </div>
+        </div>
+
+        <div id="result-screen" class="screen">
+            <h1>Hasil Quis</h1>
+            <div class="result-info">
+                <p>Skor Kamu <span id="final-score">0</span> dari <span id="max-score">5</span></p>
+
+                <div id="result-message">Bagus</div>
+            </div>
+            <button id="restart-btn">Ulang Quis</button>
         </div>
     </div>
 </body>
