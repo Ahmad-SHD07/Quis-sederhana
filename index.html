@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quis Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -17,17 +18,19 @@
             <div class="quiz-header">
                 <h2 id="question-text">Pertanyaan ditulis di sini</h2>
                 <div class="quiz-info">
-                    <p>Pertanyaan <span id="current-question">1</span> of <span>5</span></p>
+                    <p>
+                        Pertanyaan <span id="current-question">1</span> of <span id="total-questions">5</span>
+                    </p>
 
                     <p>score: <span id="score">0</span></p>
                 </div>
-
             </div>
+            
             <div id="answers-container" class="answes-container">
                 <!-- Tombol jawaban akan ditambahkan di sini nanti dari kode JavaScript -->
             </div>
 
-            <div class="progres-bar">
+            <div class="progress-bar">
                 <div id="progress" class="progress"></div>
             </div>
         </div>
